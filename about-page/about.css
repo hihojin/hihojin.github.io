@@ -42,3 +42,26 @@ h2 span{
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+@media(max-width:600px){
+    .header{
+        top: 38%;
+    }
+
+    .intro{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media(max-width:300px){
+    .header{
+        top: 40%;
+    }
+
+    .intro{
+        font-size: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}

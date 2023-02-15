@@ -24,4 +24,9 @@ p{
     font-size: 1rem;
 }
 
+@media(max-width:300px){
+    .brief-introduction{
+        font-size: 12px;
+    }
+}
 
