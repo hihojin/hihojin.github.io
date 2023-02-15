@@ -1,0 +1,27 @@
+.brief-introduction{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    padding: 10px;
+    text-overflow: hidden;
+    /* transition effect with variable spped from start to end */
+    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.1, 1) 0.5s;
+}
+@keyframes reveal{
+    0% {
+        transform: translate(0,100%);
+    }
+    100% {
+        transform: translate(0,0);
+    }
+}
+
+#welcome{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+
